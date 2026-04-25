@@ -1,11 +1,24 @@
-# Python-generated files
+# Python cache
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
 
 # Virtual environments
 .venv/
-.env
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/version files
+.python-version
+
+# UV / package lock (optional depending on your workflow)
+uv.lock
+
+# Logs
+*.log
